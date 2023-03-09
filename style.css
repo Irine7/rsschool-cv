@@ -1,0 +1,329 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap);
+/* Styles Reset */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 16px;
+}
+
+body {
+	line-height: 1;
+	width: 100%;
+}
+
+li {
+	list-style: none;
+}
+
+/* ---------Header part-------------- */
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 1200px;
+	max-height: 1900px;
+	margin: 0 auto;
+	background-color: #777299;
+	color: #332F49;
+}
+
+.header {
+	max-width: 1200px;
+	display: inline-block;
+}
+
+.header__img {
+	max-width: 350px;
+	border-radius: 0px 150px 150px 150px;
+	margin: 0px 45px 0px 0px;
+}
+
+.about {
+	max-width: 1000px;
+	margin: 40px 0px 0px 75px;
+	display: inline-block;
+	max-width: 700px;
+	background-color: #c4c1d692;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.about__title {
+	font-size: 56px;
+	text-align: center;
+	font-weight: 700;
+	margin: 0px 0px 30px 0px;
+}
+
+.about__subtitle {
+	font-size: 30px;
+	text-align: center;
+	font-weight: 600;
+	margin: 0px 0px 30px 0px;
+}
+
+.about__text {
+	max-width: 600px;
+	font-size: 22px;
+	font-weight: 400;
+	text-align: justify;
+}
+
+/* ---------Main part-------------- */
+
+/* ---------Aux column------------ */
+.aux-column {
+	width: 35%;
+}
+
+.contacts__title,
+.hard-skills__title,
+.lang__title,
+.hobbies__title {
+	max-width: 220px;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform:uppercase;
+	background-color: #c4c1d692;
+	border-radius: 0px 20px 20px 0px;
+	margin: 40px 0px 10px 0px;
+	padding: 10px 10px 10px 55px;
+}
+
+.contacs__items,
+.hard-skills__items,
+.lang__items,
+.hobbies__items {
+	font-size: 22px;
+	line-height: 22px;
+	background-color: #c4c1d692;
+	border-radius: 10px;
+	margin: 0px 0px 0px 50px;
+	padding: 10px;
+}
+
+.contacts__location,
+.contact__email,
+.contacts__git,
+.hard-skills__item,
+.lang__item,
+.hobbies__item {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	padding: 0px 0px 10px 0px;
+}
+
+.contacts__location::before {
+	content: "";
+	background: url(../rsschool-cv/images/icons/loc.png) 5px 0 no-repeat;
+	width: 25px;
+	height: 25px;
+	padding-right: 35px;
+}
+
+.contact__email::before {
+	content: "";
+	background: url(../rsschool-cv/images/icons/email.png) 3px 0 no-repeat;
+	width: 25px;
+	height: 25px;
+	padding-right: 35px;
+}
+.contacts__git::before {
+	content: "";
+	background: url(../rsschool-cv/images/icons/git.png) 0 0 no-repeat;
+	width: 25px;
+	height: 25px;
+	padding-right: 35px;
+}
+
+.email:hover {
+	text-decoration: underline;
+}
+
+.git:hover {
+	text-decoration: underline;
+}
+
+.email,
+.git:visited {
+	color: #332F49;
+}
+
+.hard-skills__item::before,
+.lang__item::before {
+	content: "";
+	background-color: #332F49;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.hobbies__items {
+	padding: 20px 30px;
+}
+
+/* ---------Main column----------- */
+
+.main-column {
+	text-align: justify;
+	width: 55%;
+	background-color: #777299;
+	padding: 5px 0px 30px 55px;
+	margin-left: 25px;
+	border-radius: 10px;
+	background-color: #c4c1d692;
+	position: relative;
+	top: -930px;
+	left: 450px;
+}
+
+.courses__title,
+.edu__title,
+.soft-skills__title,
+.my-project__title {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform:uppercase;
+	margin: 30px 0px 30px 0px;
+}
+.courses__item,
+.edu__item,
+.soft-skills__item {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	padding: 0px 0px 10px 0px;
+}
+
+.courses__item::before,
+.edu__item::before {
+	content: "";
+	background-color: #332F49;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.soft-skills__item::before {
+	content: "";
+	background: url(../rsschool-cv/images/icons/done.svg) 0 0 no-repeat;
+	width: 25px;
+	height: 25px;
+	padding-right: 35px;
+}
+
+.my-project__image_h:hover {
+	box-shadow: rgba(38, 38, 38, 0.368) 3px 3px 7px 2px;
+}
+
+.my-project__image_f:hover {
+	box-shadow: rgba(38, 38, 38, 0.368) 3px 3px 7px 2px;
+}
+
+.my-project__image_p:hover {
+	box-shadow: rgba(38, 38, 38, 0.368) 3px 3px 7px 2px;
+}
+
+.my-project__image_h {
+	border-radius: 10px 10px 0px 0px;
+}
+.my-project__image_f {
+	border-radius: 0px 0px 0px 10px;
+}
+
+.my-project__image_p {
+	border-radius: 0px 0px 10px 0px;
+}
+
+.projects__title {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 28px;
+	padding: 0px 0px 10px 0px;
+	margin: 0 auto;
+	max-width: 250px;
+}
+
+.my-project__link:visited {
+	color: #332F49;
+}
+
+/* ---------Footer part-------------- */
+
+.footer {
+	width: 100%;
+	padding: 5px 0px 30px 55px;
+	background-color: #c4c1d692;
+	position: relative;
+	bottom: 875px;
+	left: 0;
+}
+.footer-items {
+	width: 100%;
+}
+.git-item {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	left: 200px;
+}
+.date-item {
+	max-width: 220px;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #332F49;
+	display: inline-block;
+	position: relative;
+	top: 30px;
+	left: 450px;
+}
+.school-item {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	left: 700px;
+}
