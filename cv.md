@@ -28,3 +28,15 @@
 2. Web Coding (HTML and CSS) by Freelancer by life; 
 3. RS Schools Course «JavaScript/Front-end. Stage 0»;
 4. RS Schools Course «JavaScript/Front-end. Stage 1» (in progress);
+
+**Education:** 
+* International Journalism (Bachelor degree), Ekaterinburg, Russia; 
+* International Relationships (Master), Ekaterinburg, Russia; 
+* Marketing, Barcelona, Spain.
+
+
+**Languages:** 
+* English: C1 (oficial cirtificate); 
+* Russian: native speaker; 
+* Spanish: C1:
+* Catalan A2.
