@@ -9,8 +9,6 @@
 
 **E-mail:** isemichasova@gmail.com
 
-**Tel:** +34 684109820
-
 **GitHub:** Irine7
 
 **About me:** I´m a marketing speciapst by profession and tennis player and a coder by passion. Started to learn the coding by casual and would pke to study up to a front end developer.
